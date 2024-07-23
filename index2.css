@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white; /* Ensure text is visible on the background */
+}
+
+
+header {
+    background-color: rgb(221, 112, 112); /* Semi-transparent background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+
+}
+
+
+header .login-navigation {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+main .text-over-image h2 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 30px;
+    margin-top: 9.2%;
+    letter-spacing: 2px;
+}
+
+main .text-over-image p {
+    font-size: 18px;
+    padding-left: 30px; 
+    padding-bottom: 50px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: black; /* Ensure text is visible on the background */
+
+}

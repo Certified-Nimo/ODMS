@@ -1,0 +1,43 @@
+form{
+    margin-top: 20px;
+    padding:var(--card-padding);
+    background: var(--color-white);
+    width: 100%;
+    border-radius: var(--card-border-radius);    
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    
+    
+        
+}
+label{
+    
+    font-weight: bold;
+    font-size: 15px;    
+    
+}
+input{
+    background: rgb(88, 88, 88);
+    color: white;
+    width: 50%;
+    height: 30px;
+    
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+button{
+    border-radius: 20px;
+    background-color: var(--color-success);
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer; 
+    margin-top: 10px;  
+    margin-left: 400px;
+}
+.back{
+    background-color: var(--color-primary);    
+    margin-left: 5px;
+}

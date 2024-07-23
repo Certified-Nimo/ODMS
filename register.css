@@ -1,0 +1,30 @@
+
+.register-container {
+    display: flex;
+    max-width: 600px;
+    background-color: red;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 70%;
+    align-items: center;
+}
+
+
+.register-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.register-form h2{
+    font-weight: bolder;
+    font-size: 28px;
+    margin-bottom: 1rem;
+   
+}
+
+label span{
+    color: red;
+}
+.error-message {
+    color: red;
+}
